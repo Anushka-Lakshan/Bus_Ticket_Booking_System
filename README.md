@@ -1,93 +1,82 @@
+# Online Bus Ticket Booking System for Sri Lankan Transport Board
 
-# Invoice System for Sparkling Pixels
-
-This project is a **fully featured Invoice system** developed for Sparkling Pixels Photography Studio. It is built using **HTML, CSS, JavaScript, PHP**, and **SQLite** as a web project. After development, it is converted into a desktop application using the [**PHP DESKTOP**](https://github.com/cztomczak/phpdesktop) library.
+This project is a **comprehensive online bus ticket booking system** developed for the Sri Lankan Transport Board. It is built using **C#, ASP.net**, and **MS SQL** as a web application. Additionally, a web service is created using **ASMX** for future scalability.
 
 ![Cover](readme_imgs/cover.jpg)
 
 <hr>
 
-## Customer Requirements
-
-- The main requirement is **generating custom-designed modern-looking invoices.**
-- **Manage clients.**
-- **Manage packages.**
-- **Manage invoices.**
-- **Track payments.**
-
 ## Features of the System
 
-- **Manage Clients:** 
-  Users can add, edit, and delete clients. When viewing client details, users can also view all invoices created for a specific client.
+### Passengers
+- **Book Tickets:**
+  - No account creation needed.
+  - Select the route.
+  - Choose from available bus schedules (view available seats).
+  - Enter details: Name, Email, NIC, Number of seats.
+  - Book the seat.
 
-- **Manage Packages:** 
-  Users can add, edit, and delete packages. When creating an invoice, users can easily add these packages to the invoice.
+### Bus Agencies
+- **Manage Schedules:**
+  - Log in to the system.
+  - Create and manage bus schedules.
+  - View bookings related to their agency.
 
-- **Manage Invoices:** 
-  Users can create and manage fully customizable invoices for clients. Add payments to specific invoices, customize terms and conditions for specific invoices, and add special notes to the invoices.
-
-- **Tracking Payments:** 
-  Users can track all payments in one place using filters by client, invoice number, and sort by date or invoice numbers.
-
-- **Generate PDF Invoices:** 
-  Users can generate custom-designed modern-looking invoices with all the details including terms and conditions.
-
-- **Admin Dashboard:** 
-  A comprehensive dashboard including total outstanding, total payments, client count, invoice count, and a **graph view of payments overview for each month**.
-
-- **Customizable Settings:** 
-  Users can fully customize studio details including phone number, address, email, and the terms and conditions of the invoices.
-
-- **Backup and Restore:** 
-  Users can easily backup the entire system data and restore previously backed up data.
+### Admins
+- **System Management:**
+  - Add and manage agencies.
+  - Manage routes.
+  - Manage schedules.
 
 ## Technologies Used
 
-- HTML, CSS, JavaScript
-- PHP
-- SQLite
+- **C#**
+- **MS SQL**
+- **ASP.net**
+
+The project was developed using **Visual Studio 2015**.
+
+## Web Service
+
+A web service using **ASMX** has been created for future scalability, allowing easy integration with other systems or platforms.
+
+## Screen Shots
+
+Home page
+![Screenshots](readme_imgs/0.jpg)
+
+
+Select bus schedule
+![Screenshots](readme_imgs/1.jpg)
+
+Agency dashboard
+![Screenshots](readme_imgs/2.jpg)
+
+Passanger ticket booking
+![Screenshots](readme_imgs/3.jpg)
+
+Admin dashboard
+![Screenshots](readme_imgs/4.jpg)
+
+<hr>
 
 ## Architecture and Code Structure
 
-The project follows the MVC (Model-View-Controller) architecture for clean and reusable code. The codebase is structured for easy maintenance and scalability.
+The project follows a modular architecture to ensure clean, maintainable, and scalable code. The system is structured to handle various types of users efficiently.
 
 ## User Interface
 
-The user interface is designed adhering to UI/UX principles and follows a clean, clear, and minimalistic design.
-
-## Project Screenshots
-
-PDF invoice design (Actual generated invoice)
-![Invoice](readme_imgs/0.jpg)
-
-Dashboard
-![Dashboard](readme_imgs/1.jpg)
-
-Manage Clients
-![Manage Clients](readme_imgs/2.jpg)
-
-Manage Packages
-![Manage Packages](readme_imgs/3.jpg)
-
-Create Invoice
-![Create Invoice](readme_imgs/4.jpg)
-
-Tracking Payments
-![Tracking Payments](readme_imgs/5.jpg)
-
-Backup and Restore
-![Backup and Restore](readme_imgs/6.jpg)
+The user interface is designed to be user-friendly, responsive and intuitive, ensuring a seamless experience for passengers, agencies, and admins.
 
 ## Getting Started
 
 To run this project locally, follow these steps:
 
 1. Clone the repository.
-2. Set up a local server environment (e.g., XAMPP, WAMP, or MAMP).
-3. Import the project database.
-4. Configure the necessary settings in `app/core/config.php`.
-5. Run the application on the local server.
+2. Set up your development environment with Visual Studio 2015.
+3. Configure the MS SQL database and update the connection strings accordingly.
+4. Build and run the application in Visual Studio.
 
 ## Contributors
 
-Designed and developed by [Anushka Lakshan](https://github.com/Anushka-Lakshan)
+Designed and developed by [Anushka Lakshan](https://github.com/YourUsername)
