@@ -8,7 +8,7 @@ This project is a **comprehensive online bus ticket booking system** developed f
 
 ## Features of the System
 
-### Passengers
+#### Passengers
 - **Book Tickets:**
   - No account creation needed.
   - Select the route.
@@ -16,13 +16,13 @@ This project is a **comprehensive online bus ticket booking system** developed f
   - Enter details: Name, Email, NIC, Number of seats.
   - Book the seat.
 
-### Bus Agencies
+#### Bus Agencies
 - **Manage Schedules:**
   - Log in to the system.
   - Create and manage bus schedules.
   - View bookings related to their agency.
 
-### Admins
+#### Admins
 - **System Management:**
   - Add and manage agencies.
   - Manage routes.
